@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Megafrut – Exportadora de fruta fresca</title>
+<meta name="description" content="Megafrut es una exportadora agrícola chilena con base en San Fernando, Región de O’Higgins. Cerezas, nectarinas, peras, uva Red Globe y kiwis de exportación. Certificación GLOBALG.A.P." id="meta-desc">
+<meta name="theme-color" content="#14301F">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-title" content="Megafrut">
+<link rel="canonical" href="https://megafrut.cl/">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Megafrut">
+<meta property="og:title" content="Megafrut – Exportadora de fruta fresca">
+<meta property="og:description" content="Megafrut es una exportadora agrícola chilena con base en San Fernando, Región de O’Higgins. Cerezas, nectarinas, peras, uva Red Globe y kiwis de exportación. Certificación GLOBALG.A.P.">
+<meta property="og:url" content="https://megafrut.cl/">
+<meta property="og:image" content="https://megafrut.cl/assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Megafrut","url":"https://megafrut.cl/","logo":"https://megafrut.cl/assets/img/logo-megafrut.png","email":"Contacto.Megafrut@gmail.com","telephone":"+56984445286","address":{"@type":"PostalAddress","addressLocality":"San Fernando","addressRegion":"Región de O’Higgins","addressCountry":"CL"}}
+</script>
+<style>
+:root{
+  --green:#14301F; --green-dark:#0D2216; --gold:#E9B84A; --cream:#F6F4EE; --line:#E4E0D4;
+  --ink:#1B2A21; --muted:#46564B; --display:'Bricolage Grotesque',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media (hover:hover){a:hover{opacity:.85}}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:var(--display);font-weight:700}
+section[id]{scroll-margin-top:12px}
+
+.wrap{max-width:1200px;margin:0 auto;padding:88px 32px;padding-left:max(32px,env(safe-area-inset-left));padding-right:max(32px,env(safe-area-inset-right))}
+.btn{display:inline-block;font-weight:700;padding:14px 28px;border-radius:999px;text-decoration:none;text-align:center;min-height:44px}
+.btn-gold{background:var(--gold);color:var(--green)}
+.btn-dark{background:var(--green);color:#F4F1E8}
+.btn-outline-light{border:2px solid #F4F1E8;padding:12px 26px;color:#F4F1E8}
+.btn-outline-dark{border:2px solid var(--green);padding:12px 26px;color:var(--green)}
+.eyebrow{font-weight:700;letter-spacing:2px;font-size:14px;text-transform:uppercase}
+h2.title{font-size:44px;line-height:1.1;letter-spacing:-1px}
+
+/* header */
+.site-header{background:var(--cream);color:var(--green);border-bottom:1px solid var(--line)}
+.bar{max-width:1200px;margin:0 auto;padding:20px 32px;padding-left:max(32px,env(safe-area-inset-left));padding-right:max(32px,env(safe-area-inset-right));display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{display:block;height:64px;width:auto}
+.brand span{font-family:var(--display);font-weight:700;font-size:26px;letter-spacing:-.5px}
+nav{display:flex;flex-wrap:wrap;gap:20px;font-weight:500;align-items:center}
+nav a{text-decoration:none}
+nav a.btn-gold{padding:10px 20px;min-height:0}
+.lang{display:flex;gap:4px;border:1px solid rgba(20,48,31,.35);border-radius:999px;padding:3px}
+.lang button{-webkit-appearance:none;appearance:none;border:0;cursor:pointer;min-width:44px;min-height:44px;border-radius:999px;font-family:'DM Sans',-apple-system,sans-serif;font-weight:700;font-size:14px;padding:0 14px;background:transparent;color:var(--green);-webkit-tap-highlight-color:transparent}
+.lang button[aria-pressed="true"]{background:var(--gold);color:var(--green)}
+
+/* hero */
+.hero{background:var(--green);color:#F4F1E8}
+.hero .wrap{padding-top:72px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:56px;align-items:center}
+.hero-text{flex:1 1 420px;display:flex;flex-direction:column;gap:24px}
+.hero .eyebrow{color:var(--gold)}
+.hero h1{font-size:60px;line-height:1.05;letter-spacing:-1.5px}
+.hero-sub{font-size:20px;max-width:520px;color:#D9E2D6}
+.hero-cta{display:flex;flex-wrap:wrap;gap:16px;margin-top:8px}
+.hero-logo{flex:1 1 320px;display:flex;justify-content:center}
+.hero-logo div{background:var(--cream);border-radius:28px;padding:28px;width:100%;max-width:400px}
+.hero-logo img{display:block;width:100%;height:auto}
+
+/* fruits */
+.fruits .wrap{display:flex;flex-direction:column;gap:40px}
+.fruits .intro{display:flex;flex-direction:column;gap:12px;max-width:640px}
+.fruits .intro p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px}
+.card{background:#fff;border-radius:20px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column}
+.card img{display:block;width:100%;height:220px;object-fit:cover}
+.card-body{padding:24px;display:flex;flex-direction:column;gap:10px}
+.card h3{font-size:28px}
+.card p{color:var(--muted)}
+.season{font-size:14px;font-weight:700}
+.c-cherry{color:#8C1522}.c-kiwi{color:#3F5F12}.c-nect{color:#99440F}.c-pear{color:#5E5A10}.c-grape{color:#5A2A5E}
+
+/* certification */
+.cert{background:var(--green);color:#F4F1E8}
+.cert .wrap{padding-top:40px;padding-bottom:40px;display:flex;flex-wrap:wrap;gap:24px;align-items:center}
+.cert svg{flex:none}
+.cert .cert-text{flex:1 1 320px;display:flex;flex-direction:column;gap:4px}
+.cert h2{font-size:28px;letter-spacing:-.5px}
+.cert p{color:#D9E2D6}
+
+/* why */
+.why{background:#E9EFE3}
+.why .wrap{padding-top:80px;padding-bottom:80px;display:flex;flex-direction:column;gap:40px}
+.why h2{max-width:640px}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px}
+.why-grid div{display:flex;flex-direction:column;gap:8px}
+.why-grid h3{font-size:24px}
+.why-grid p{color:#3A4A3F}
+
+/* location */
+.loc .wrap{display:flex;flex-wrap:wrap;gap:48px;align-items:center}
+.loc-text{flex:1 1 360px;display:flex;flex-direction:column;gap:20px}
+.loc-text p{color:var(--muted)}
+.loc-label{display:block;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#8A5A00}
+.loc-name{display:block;font-family:var(--display);font-weight:700;font-size:24px}
+.loc-addr{display:block;font-size:18px}
+.loc-text .btn{align-self:flex-start}
+.loc img{flex:1 1 380px;min-width:0;max-width:100%;height:480px;object-fit:cover;object-position:center 60%;border-radius:20px;display:block}
+
+/* jobs */
+.jobs{background:#fff}
+.jobs-box{background:var(--cream);border:1px solid var(--line);border-radius:28px;padding:56px 48px;display:flex;flex-wrap:wrap;gap:40px;align-items:center;justify-content:space-between}
+.jobs-box .t{flex:1 1 380px;display:flex;flex-direction:column;gap:16px}
+.jobs-box p{color:var(--muted);max-width:560px}
+.jobs-box .actions{display:flex;flex-wrap:wrap;gap:16px}
+
+/* contact */
+.contact{background:var(--green);color:#F4F1E8}
+.contact .wrap{padding-top:80px;padding-bottom:80px;display:flex;flex-wrap:wrap;gap:48px;justify-content:space-between}
+.contact .l{flex:1 1 380px;display:flex;flex-direction:column;gap:16px}
+.contact .l p{font-size:20px;color:#D9E2D6}
+.contact .r{flex:1 1 320px;display:flex;flex-direction:column;gap:20px;font-size:18px}
+.contact .k{display:block;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+.contact .r a:not(.btn){text-decoration:underline}
+.contact .r .btn{align-self:flex-start}
+
+footer{background:var(--green-dark);color:#B8C5B6;font-size:14px}
+footer .bar{padding-top:24px;padding-bottom:max(24px,env(safe-area-inset-bottom));justify-content:space-between}
+
+@media (max-width:760px){
+  .wrap{padding-top:56px;padding-bottom:56px;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+  .bar{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+  .hero .wrap{padding-top:48px;padding-bottom:56px;gap:36px}
+  .hero h1{font-size:40px;letter-spacing:-1px}
+  .hero-sub{font-size:18px}
+  h2.title{font-size:32px}
+  .why .wrap,.contact .wrap{padding-top:56px;padding-bottom:56px}
+  .jobs-box{padding:32px 24px;border-radius:22px}
+  .loc img{height:360px}
+  .brand img{height:52px}
+  .brand span{font-size:22px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="#" aria-label="Megafrut">
+      <img src="assets/img/logo-megafrut-sm.png" data-i18n-alt="logoAlt" alt="Logo Megafrut" width="200" height="190">
+      <span>Megafrut</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#frutas" data-i18n="navFruit">Frutas</a>
+      <a href="#nosotros" data-i18n="navWhy">Por qué Megafrut</a>
+      <a href="#ubicacion" data-i18n="navLoc">Ubicación</a>
+      <a href="#trabaja" data-i18n="navJobs">Trabaja con nosotros</a>
+      <a href="#contacto" data-i18n="navContact">Contacto</a>
+      <a class="btn btn-gold" href="https://wa.me/56984445286" rel="noopener">WhatsApp</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <span class="eyebrow" data-i18n="eyebrow">Exportadora agrícola · Desde 1993</span>
+      <h1 data-i18n="heroTitle">Fruta fresca de Chile, directo a tu mercado.</h1>
+      <p class="hero-sub" data-i18n="heroSub">Cerezas, kiwis, nectarinas, peras y uva Red Globe seleccionadas en origen y enviadas con foco en frescura y calidad.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#frutas" data-i18n="cta1">Conoce nuestras frutas</a>
+        <a class="btn btn-outline-light" href="#contacto" data-i18n="cta2">Contáctanos</a>
+      </div>
+    </div>
+    <div class="hero-logo"><div><img src="assets/img/logo-megafrut.png" data-i18n-alt="heroLogoAlt" alt="Logo Megafrut, desde 1993" width="640" height="607"></div></div>
+  </div>
+</section>
+
+<section id="frutas" class="fruits">
+  <div class="wrap">
+    <div class="intro">
+      <h2 class="title" data-i18n="fruitsTitle">Nuestras frutas de exportación</h2>
+      <p data-i18n="fruitsSub">Cinco variedades, un mismo estándar de calidad desde el huerto hasta el destino.</p>
+    </div>
+    <div class="cards">
+
+      <article class="card">
+        <img src="assets/img/cherries.jpg" data-i18n-alt="cherry" alt="Cerezas" width="900" height="600" loading="lazy" decoding="async">
+        <div class="card-body">
+          <h3 data-i18n="cherry">Cerezas</h3>
+          <span class="season c-cherry" data-i18n="sCherry">Temporada: noviembre a diciembre</span>
+          <p data-i18n="cherryD">Calibre y firmeza seleccionados para llegar frescas y con su color característico.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/kiwis.jpg" data-i18n-alt="kiwi" alt="Kiwis" width="900" height="600" loading="lazy" decoding="async">
+        <div class="card-body">
+          <h3 data-i18n="kiwi">Kiwis</h3>
+          <span class="season c-kiwi" data-i18n="sKiwi">Temporada: marzo a abril</span>
+          <p data-i18n="kiwiD">Fruta de buena conservación, con dulzor y acidez equilibrados para el mercado internacional.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/nectarines.jpg" data-i18n-alt="nectarine" alt="Nectarinas" width="900" height="600" loading="lazy" decoding="async">
+        <div class="card-body">
+          <h3 data-i18n="nectarine">Nectarinas</h3>
+          <span class="season c-nect" data-i18n="sNectarine">Temporada: noviembre a enero</span>
+          <p data-i18n="nectD">Jugosas y aromáticas, cosechadas en su punto para soportar el viaje sin perder sabor.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/pears.jpg" data-i18n-alt="pear" alt="Peras" width="900" height="600" loading="lazy" decoding="async">
+        <div class="card-body">
+          <h3 data-i18n="pear">Peras</h3>
+          <span class="season c-pear" data-i18n="sPear">Temporada: febrero</span>
+          <p data-i18n="pearD">Textura firme y sabor suave, seleccionadas por tamaño y sanidad antes del embalaje.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/img/grapes.jpg" data-i18n-alt="grape" alt="Uva Red Globe" width="900" height="600" loading="lazy" decoding="async">
+        <div class="card-body">
+          <h3 data-i18n="grape">Uva Red Globe</h3>
+          <span class="season c-grape" data-i18n="sGrape">Temporada: marzo a abril</span>
+          <p data-i18n="grapeD">Uva de mesa de bayas grandes y firmes, cosechada en su punto para el mercado internacional.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="certificacion" class="cert">
+  <div class="wrap">
+    <svg aria-hidden="true" width="56" height="56" viewBox="0 0 56 56"><circle cx="28" cy="28" r="26" fill="none" stroke="#E9B84A" stroke-width="3"/><path d="M17 29l8 8 14-16" fill="none" stroke="#E9B84A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="cert-text">
+      <h2 data-i18n="certTitle">Certificación GLOBALG.A.P.</h2>
+      <p data-i18n="certText">Contamos con la certificación GLOBALG.A.P., estándar internacional de buenas prácticas agrícolas.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" class="why">
+  <div class="wrap">
+    <h2 class="title" data-i18n="whyTitle">Por qué elegir Megafrut</h2>
+    <div class="why-grid">
+      <div><h3 data-i18n="w1">Más de 30 años de trayectoria</h3><p data-i18n="w1d">Desde 1993 trabajamos con fruta fresca chilena para el mercado internacional.</p></div>
+      <div><h3 data-i18n="w2">Desde la Región de O’Higgins</h3><p data-i18n="w2d">Operamos desde San Fernando, en una de las zonas frutícolas de Chile.</p></div>
+      <div><h3 data-i18n="w3">Cinco frutas, de noviembre a abril</h3><p data-i18n="w3d">Cerezas, nectarinas, peras, uva Red Globe y kiwis, cada una en su temporada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="ubicacion" class="loc">
+  <div class="wrap">
+    <div class="loc-text">
+      <h2 class="title" data-i18n="locTitle">Dónde estamos</h2>
+      <p data-i18n="locText">Visítanos en nuestro fundo, ubicado en la comuna de San Fernando.</p>
+      <div>
+        <span class="loc-label" data-i18n="locLabel">Dirección</span>
+        <span class="loc-name" data-i18n="locName">Megafrut y Sociedad Agrícola Los Lingues</span>
+        <span class="loc-addr" data-i18n="locAddr">Camino I-113, San Fernando, Región de O’Higgins</span>
+      </div>
+      <a class="btn btn-dark" href="https://maps.app.goo.gl/tzRuajKfJukPzzwq8" rel="noopener" data-i18n="locBtn">Ver en Google Maps</a>
+    </div>
+    <img src="assets/img/entrada.jpg" data-i18n-alt="locAlt" alt="Entrada del fundo Megafrut" width="707" height="900" loading="lazy" decoding="async">
+  </div>
+</section>
+
+<section id="trabaja" class="jobs">
+  <div class="wrap">
+    <div class="jobs-box">
+      <div class="t">
+        <h2 class="title" data-i18n="jobsTitle">Trabaja con nosotros</h2>
+        <p data-i18n="jobsText">¿Quieres ser parte del equipo de Megafrut? Envíanos tu currículum y cuéntanos en qué área te gustaría trabajar.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-dark" data-i18n-href="cvHref" href="mailto:Contacto.Megafrut@gmail.com?subject=Postulaci%C3%B3n%20Megafrut" data-i18n="cvBtn">Enviar currículum por correo</a>
+        <a class="btn btn-outline-dark" data-i18n-href="waJobHref" href="https://wa.me/56984445286?text=Hola%2C%20quiero%20postular%20a%20Megafrut" rel="noopener" data-i18n="waJobBtn">Postular por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <div class="wrap">
+    <div class="l">
+      <h2 class="title" data-i18n="ctaTitle">Hablemos de tu próximo pedido</h2>
+      <p data-i18n="ctaSub">Cuéntanos qué fruta necesitas, volumen y destino, y te responderemos a la brevedad.</p>
+    </div>
+    <div class="r">
+      <div><span class="k" data-i18n="lEmail">Correo</span><a href="mailto:Contacto.Megafrut@gmail.com" data-i18n="vEmail">Contacto.Megafrut@gmail.com</a></div>
+      <div><span class="k" data-i18n="lPhone">Teléfono y WhatsApp</span><a href="tel:+56984445286" data-i18n="vPhone">+56 9 8444 5286</a></div>
+      <div><span class="k" data-i18n="lLoc">Ubicación</span><span data-i18n="vLoc">San Fernando, Región de O’Higgins, Chile</span></div>
+      <a class="btn btn-gold" href="https://wa.me/56984445286" rel="noopener" data-i18n="waBtn">Escríbenos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="bar">
+    <span>© 2026 Megafrut · megafrut.cl</span>
+    <span data-i18n="footer">Exportadora agrícola</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var COPY = {
+  "es": {
+    "navFruit": "Frutas",
+    "navWhy": "Por qué Megafrut",
+    "navContact": "Contacto",
+    "eyebrow": "Exportadora agrícola · Desde 1993",
+    "heroTitle": "Fruta fresca de Chile, directo a tu mercado.",
+    "heroSub": "Cerezas, kiwis, nectarinas, peras y uva Red Globe seleccionadas en origen y enviadas con foco en frescura y calidad.",
+    "cta1": "Conoce nuestras frutas",
+    "cta2": "Contáctanos",
+    "fruitsTitle": "Nuestras frutas de exportación",
+    "fruitsSub": "Cinco variedades, un mismo estándar de calidad desde el huerto hasta el destino.",
+    "cherry": "Cerezas",
+    "nectarine": "Nectarinas",
+    "pear": "Peras",
+    "sCherry": "Temporada: noviembre a diciembre",
+    "sKiwi": "Temporada: marzo a abril",
+    "sNectarine": "Temporada: noviembre a enero",
+    "sPear": "Temporada: febrero",
+    "sGrape": "Temporada: marzo a abril",
+    "cherryD": "Calibre y firmeza seleccionados para llegar frescas y con su color característico.",
+    "kiwiD": "Fruta de buena conservación, con dulzor y acidez equilibrados para el mercado internacional.",
+    "nectD": "Jugosas y aromáticas, cosechadas en su punto para soportar el viaje sin perder sabor.",
+    "pearD": "Textura firme y sabor suave, seleccionadas por tamaño y sanidad antes del embalaje.",
+    "whyTitle": "Por qué elegir Megafrut",
+    "w1": "Más de 30 años de trayectoria",
+    "w1d": "Desde 1993 trabajamos con fruta fresca chilena para el mercado internacional.",
+    "w2": "Desde la Región de O’Higgins",
+    "w2d": "Operamos desde San Fernando, en una de las zonas frutícolas de Chile.",
+    "w3": "Cinco frutas, de noviembre a abril",
+    "w3d": "Cerezas, nectarinas, peras, uva Red Globe y kiwis, cada una en su temporada.",
+    "ctaTitle": "Hablemos de tu próximo pedido",
+    "ctaSub": "Cuéntanos qué fruta necesitas, volumen y destino, y te responderemos a la brevedad.",
+    "lEmail": "Correo",
+    "vEmail": "Contacto.Megafrut@gmail.com",
+    "lPhone": "Teléfono y WhatsApp",
+    "waBtn": "Escríbenos por WhatsApp",
+    "vPhone": "+56 9 8444 5286",
+    "lLoc": "Ubicación",
+    "vLoc": "San Fernando, Región de O’Higgins, Chile",
+    "navLoc": "Ubicación",
+    "navAbout": "Quiénes somos",
+    "navJobs": "Trabaja con nosotros",
+    "certTitle": "Certificación GLOBALG.A.P.",
+    "certText": "Contamos con la certificación GLOBALG.A.P., estándar internacional de buenas prácticas agrícolas.",
+    "aboutTitle": "Quiénes somos",
+    "aboutP1": "Megafrut es una exportadora agrícola chilena con base en San Fernando, Región de O’Higgins. Desde 1993 trabajamos con fruta fresca para llevarla a mercados internacionales.",
+    "aboutP2": "Hoy exportamos cerezas, nectarinas, peras, uva Red Globe y kiwis, entre noviembre y abril.",
+    "st1": "Año en que comenzamos",
+    "st2": "Frutas de exportación",
+    "st3n": "Nov – Abr",
+    "st3": "Meses de temporada",
+    "jobsTitle": "Trabaja con nosotros",
+    "jobsText": "¿Quieres ser parte del equipo de Megafrut? Envíanos tu currículum y cuéntanos en qué área te gustaría trabajar.",
+    "cvBtn": "Enviar currículum por correo",
+    "cvHref": "mailto:Contacto.Megafrut@gmail.com?subject=Postulaci%C3%B3n%20Megafrut",
+    "waJobBtn": "Postular por WhatsApp",
+    "waJobHref": "https://wa.me/56984445286?text=Hola%2C%20quiero%20postular%20a%20Megafrut",
+    "locTitle": "Dónde estamos",
+    "locText": "Visítanos en nuestro fundo, ubicado en la comuna de San Fernando.",
+    "locLabel": "Dirección",
+    "locName": "Megafrut y Sociedad Agrícola Los Lingues",
+    "locAddr": "Camino I-113, San Fernando, Región de O’Higgins",
+    "locBtn": "Ver en Google Maps",
+    "locAlt": "Entrada del fundo Megafrut",
+    "footer": "Exportadora agrícola",
+    "grape": "Uva Red Globe",
+    "grapeD": "Uva de mesa de bayas grandes y firmes, cosechada en su punto para el mercado internacional.",
+    "pageTitle": "Megafrut – Exportadora de fruta fresca",
+    "metaDesc": "Megafrut es una exportadora agrícola chilena con base en San Fernando, Región de O’Higgins. Cerezas, nectarinas, peras, uva Red Globe y kiwis de exportación. Certificación GLOBALG.A.P.",
+    "kiwi": "Kiwis",
+    "logoAlt": "Logo Megafrut",
+    "heroLogoAlt": "Logo Megafrut, desde 1993",
+    "langLabel": "Idioma"
+  },
+  "en": {
+    "navFruit": "Fruit",
+    "navWhy": "Why Megafrut",
+    "navContact": "Contact",
+    "eyebrow": "Agricultural exporter · Since 1993",
+    "heroTitle": "Fresh Chilean fruit, delivered to your market.",
+    "heroSub": "Cherries, kiwis, nectarines, pears and Red Globe grapes selected at origin and shipped with a focus on freshness and quality.",
+    "cta1": "Discover our fruit",
+    "cta2": "Contact us",
+    "fruitsTitle": "Our export fruit",
+    "fruitsSub": "Five varieties, one quality standard from orchard to destination.",
+    "cherry": "Cherries",
+    "nectarine": "Nectarines",
+    "pear": "Pears",
+    "sCherry": "Season: November to December",
+    "sKiwi": "Season: March to April",
+    "sNectarine": "Season: November to January",
+    "sPear": "Season: February",
+    "sGrape": "Season: March to April",
+    "cherryD": "Size and firmness selected to arrive fresh and with their characteristic color.",
+    "kiwiD": "Good keeping quality, with balanced sweetness and acidity for international markets.",
+    "nectD": "Juicy and aromatic, harvested at the right moment to travel without losing flavor.",
+    "pearD": "Firm texture and mild flavor, graded by size and condition before packing.",
+    "whyTitle": "Why choose Megafrut",
+    "w1": "Over 30 years of experience",
+    "w1d": "Since 1993 we have worked with fresh Chilean fruit for international markets.",
+    "w2": "From the O’Higgins Region",
+    "w2d": "We operate from San Fernando, one of Chile’s fruit-growing areas.",
+    "w3": "Five fruits, November to April",
+    "w3d": "Cherries, nectarines, pears, Red Globe grapes and kiwis, each in its season.",
+    "ctaTitle": "Let’s talk about your next order",
+    "ctaSub": "Tell us which fruit you need, the volume and destination, and we’ll get back to you shortly.",
+    "lEmail": "Email",
+    "vEmail": "Contacto.Megafrut@gmail.com",
+    "lPhone": "Phone and WhatsApp",
+    "waBtn": "Message us on WhatsApp",
+    "vPhone": "+56 9 8444 5286",
+    "lLoc": "Location",
+    "vLoc": "San Fernando, O’Higgins Region, Chile",
+    "navLoc": "Location",
+    "navAbout": "About us",
+    "navJobs": "Work with us",
+    "certTitle": "GLOBALG.A.P. certification",
+    "certText": "We hold GLOBALG.A.P. certification, an international standard for good agricultural practices.",
+    "aboutTitle": "About us",
+    "aboutP1": "Megafrut is a Chilean agricultural exporter based in San Fernando, O’Higgins Region. Since 1993 we have worked with fresh fruit to bring it to international markets.",
+    "aboutP2": "Today we export cherries, nectarines, pears, Red Globe grapes and kiwis, between November and April.",
+    "st1": "Year we started",
+    "st2": "Export fruits",
+    "st3n": "Nov – Apr",
+    "st3": "Months of season",
+    "jobsTitle": "Work with us",
+    "jobsText": "Want to be part of the Megafrut team? Send us your résumé and tell us which area you would like to work in.",
+    "cvBtn": "Send résumé by email",
+    "cvHref": "mailto:Contacto.Megafrut@gmail.com?subject=Application%20Megafrut",
+    "waJobBtn": "Apply on WhatsApp",
+    "waJobHref": "https://wa.me/56984445286?text=Hello%2C%20I%20would%20like%20to%20apply%20to%20Megafrut",
+    "locTitle": "Where to find us",
+    "locText": "Visit us at our farm, located in the San Fernando area.",
+    "locLabel": "Address",
+    "locName": "Megafrut y Sociedad Agrícola Los Lingues",
+    "locAddr": "Camino I-113, San Fernando, O’Higgins Region",
+    "locBtn": "View on Google Maps",
+    "locAlt": "Entrance to the Megafrut farm",
+    "footer": "Agricultural exporter",
+    "grape": "Red Globe grapes",
+    "grapeD": "Table grape with large, firm berries, harvested at peak for international markets.",
+    "pageTitle": "Megafrut – Fresh fruit exporter",
+    "metaDesc": "Megafrut is a Chilean agricultural exporter based in San Fernando, O’Higgins Region. Export cherries, nectarines, pears, Red Globe grapes and kiwis. GLOBALG.A.P. certified.",
+    "kiwi": "Kiwis",
+    "logoAlt": "Megafrut logo",
+    "heroLogoAlt": "Megafrut logo, since 1993",
+    "langLabel": "Language"
+  }
+};
+  var KEY = 'megafrut-lang';
+  var doc = document;
+
+  function read() { try { return window.localStorage.getItem(KEY); } catch (e) { return null; } }
+  function write(v) { try { window.localStorage.setItem(KEY, v); } catch (e) {} }
+
+  function initial() {
+    var q = /[?&]lang=(es|en)\b/.exec(window.location.search);
+    if (q) return q[1];
+    var saved = read();
+    if (saved === 'es' || saved === 'en') return saved;
+    var nav = String(navigator.language || 'es').toLowerCase();
+    return nav.indexOf('en') === 0 ? 'en' : 'es';
+  }
+
+  function each(sel, fn) { Array.prototype.forEach.call(doc.querySelectorAll(sel), fn); }
+
+  function apply(lang) {
+    var t = COPY[lang];
+    doc.documentElement.setAttribute('lang', lang);
+    doc.title = t.pageTitle;
+    var md = doc.getElementById('meta-desc'); if (md) md.setAttribute('content', t.metaDesc);
+    each('[data-i18n]', function (el) { el.textContent = t[el.getAttribute('data-i18n')]; });
+    each('[data-i18n-alt]', function (el) { el.setAttribute('alt', t[el.getAttribute('data-i18n-alt')]); });
+    each('[data-i18n-href]', function (el) { el.setAttribute('href', t[el.getAttribute('data-i18n-href')]); });
+    each('.lang button', function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false'); });
+  }
+
+  each('.lang button', function (b) {
+    b.addEventListener('click', function () {
+      var l = b.getAttribute('data-lang');
+      write(l);
+      apply(l);
+    });
+  });
+
+  apply(initial());
+})();
+</script>
+</body>
+</html>
