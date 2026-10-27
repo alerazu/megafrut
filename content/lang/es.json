@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Megafrut – Exportadora de fruta fresca",
+    "description": "Megafrut es una exportadora agrícola chilena con base en San Fernando, Región de O’Higgins. Cerezas, nectarinas, peras, uva Red Globe y kiwis de exportación. Certificación GLOBALG.A.P."
+  },
+  "nav": {
+    "fruits": "Frutas",
+    "why": "Por qué Megafrut",
+    "location": "Ubicación",
+    "jobs": "Trabaja con nosotros",
+    "contact": "Contacto"
+  },
+  "brand": {
+    "logoAlt": "Logo Megafrut"
+  },
+  "hero": {
+    "eyebrow": "Exportadora agrícola · Desde 1993",
+    "title": "Fruta fresca de Chile, directo a tu mercado.",
+    "subtitle": "Cerezas, kiwis, nectarinas, peras y uva Red Globe seleccionadas en origen y enviadas con foco en frescura y calidad.",
+    "cta1": "Conoce nuestras frutas",
+    "cta2": "Contáctanos",
+    "logoAlt": "Logo Megafrut, desde 1993"
+  },
+  "fruits": {
+    "title": "Nuestras frutas de exportación",
+    "subtitle": "Cinco variedades, un mismo estándar de calidad desde el huerto hasta el destino.",
+    "seasonLabel": "Temporada"
+  },
+  "cert": {
+    "title": "Certificación GLOBALG.A.P.",
+    "text": "Contamos con la certificación GLOBALG.A.P., estándar internacional de buenas prácticas agrícolas."
+  },
+  "why": {
+    "title": "Por qué elegir Megafrut",
+    "items": [
+      {
+        "title": "Más de 30 años de trayectoria",
+        "text": "Desde 1993 trabajamos con fruta fresca chilena para el mercado internacional."
+      },
+      {
+        "title": "Desde la Región de O’Higgins",
+        "text": "Operamos desde San Fernando, en una de las zonas frutícolas de Chile."
+      },
+      {
+        "title": "Cinco frutas, de noviembre a abril",
+        "text": "Cerezas, nectarinas, peras, uva Red Globe y kiwis, cada una en su temporada."
+      }
+    ]
+  },
+  "location": {
+    "title": "Dónde estamos",
+    "text": "Visítanos en nuestro fundo, ubicado en la comuna de San Fernando.",
+    "label": "Dirección",
+    "name": "Megafrut y Sociedad Agrícola Los Lingues",
+    "address": "Camino I-113, San Fernando, Región de O’Higgins",
+    "button": "Ver en Google Maps",
+    "imageAlt": "Entrada del fundo Megafrut"
+  },
+  "jobs": {
+    "title": "Trabaja con nosotros",
+    "text": "¿Quieres ser parte del equipo de Megafrut? Envíanos tu currículum y cuéntanos en qué área te gustaría trabajar.",
+    "cvButton": "Enviar currículum por correo",
+    "waButton": "Postular por WhatsApp",
+    "cvSubject": "Postulación Megafrut",
+    "waMessage": "Hola, quiero postular a Megafrut"
+  },
+  "contact": {
+    "title": "Hablemos de tu próximo pedido",
+    "text": "Cuéntanos qué fruta necesitas, volumen y destino, y te responderemos a la brevedad.",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono y WhatsApp",
+    "locationLabel": "Ubicación",
+    "locationValue": "San Fernando, Región de O’Higgins, Chile",
+    "whatsappButton": "Escríbenos por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Exportadora agrícola"
+  }
+}

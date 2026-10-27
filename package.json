@@ -1,0 +1,12 @@
+{
+  "name": "megafrut-site",
+  "private": true,
+  "description": "Sitio estático de Megafrut (megafrut.cl). index.html se genera con `npm run build`.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

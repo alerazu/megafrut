@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Megafrut – Fresh fruit exporter",
+    "description": "Megafrut is a Chilean agricultural exporter based in San Fernando, O’Higgins Region. Export cherries, nectarines, pears, Red Globe grapes and kiwis. GLOBALG.A.P. certified."
+  },
+  "nav": {
+    "fruits": "Fruit",
+    "why": "Why Megafrut",
+    "location": "Location",
+    "jobs": "Work with us",
+    "contact": "Contact"
+  },
+  "brand": {
+    "logoAlt": "Megafrut logo"
+  },
+  "hero": {
+    "eyebrow": "Agricultural exporter · Since 1993",
+    "title": "Fresh Chilean fruit, delivered to your market.",
+    "subtitle": "Cherries, kiwis, nectarines, pears and Red Globe grapes selected at origin and shipped with a focus on freshness and quality.",
+    "cta1": "Discover our fruit",
+    "cta2": "Contact us",
+    "logoAlt": "Megafrut logo, since 1993"
+  },
+  "fruits": {
+    "title": "Our export fruit",
+    "subtitle": "Five varieties, one quality standard from orchard to destination.",
+    "seasonLabel": "Season"
+  },
+  "cert": {
+    "title": "GLOBALG.A.P. certification",
+    "text": "We hold GLOBALG.A.P. certification, an international standard for good agricultural practices."
+  },
+  "why": {
+    "title": "Why choose Megafrut",
+    "items": [
+      {
+        "title": "Over 30 years of experience",
+        "text": "Since 1993 we have worked with fresh Chilean fruit for international markets."
+      },
+      {
+        "title": "From the O’Higgins Region",
+        "text": "We operate from San Fernando, one of Chile’s fruit-growing areas."
+      },
+      {
+        "title": "Five fruits, November to April",
+        "text": "Cherries, nectarines, pears, Red Globe grapes and kiwis, each in its season."
+      }
+    ]
+  },
+  "location": {
+    "title": "Where to find us",
+    "text": "Visit us at our farm, located in the San Fernando area.",
+    "label": "Address",
+    "name": "Megafrut y Sociedad Agrícola Los Lingues",
+    "address": "Camino I-113, San Fernando, O’Higgins Region",
+    "button": "View on Google Maps",
+    "imageAlt": "Entrance to the Megafrut farm"
+  },
+  "jobs": {
+    "title": "Work with us",
+    "text": "Want to be part of the Megafrut team? Send us your résumé and tell us which area you would like to work in.",
+    "cvButton": "Send résumé by email",
+    "waButton": "Apply on WhatsApp",
+    "cvSubject": "Application Megafrut",
+    "waMessage": "Hello, I would like to apply to Megafrut"
+  },
+  "contact": {
+    "title": "Let’s talk about your next order",
+    "text": "Tell us which fruit you need, the volume and destination, and we’ll get back to you shortly.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone and WhatsApp",
+    "locationLabel": "Location",
+    "locationValue": "San Fernando, O’Higgins Region, Chile",
+    "whatsappButton": "Message us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Agricultural exporter"
+  }
+}

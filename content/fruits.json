@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cherries",
+    "image": "cherries.jpg",
+    "focus": "70% center",
+    "accent": "#8C1522",
+    "name": {
+      "es": "Cerezas",
+      "en": "Cherries"
+    },
+    "season": {
+      "es": "noviembre a diciembre",
+      "en": "November to December"
+    },
+    "description": {
+      "es": "Calibre y firmeza seleccionados para llegar frescas y con su color característico.",
+      "en": "Size and firmness selected to arrive fresh and with their characteristic color."
+    }
+  },
+  {
+    "id": "kiwis",
+    "image": "kiwis.jpg",
+    "focus": "center",
+    "accent": "#3F5F12",
+    "name": {
+      "es": "Kiwis",
+      "en": "Kiwis"
+    },
+    "season": {
+      "es": "marzo a abril",
+      "en": "March to April"
+    },
+    "description": {
+      "es": "Fruta de buena conservación, con dulzor y acidez equilibrados para el mercado internacional.",
+      "en": "Good keeping quality, with balanced sweetness and acidity for international markets."
+    }
+  },
+  {
+    "id": "nectarines",
+    "image": "nectarines.jpg",
+    "focus": "70% center",
+    "accent": "#99440F",
+    "name": {
+      "es": "Nectarinas",
+      "en": "Nectarines"
+    },
+    "season": {
+      "es": "noviembre a enero",
+      "en": "November to January"
+    },
+    "description": {
+      "es": "Jugosas y aromáticas, cosechadas en su punto para soportar el viaje sin perder sabor.",
+      "en": "Juicy and aromatic, harvested at the right moment to travel without losing flavor."
+    }
+  },
+  {
+    "id": "pears",
+    "image": "pears.jpg",
+    "focus": "center",
+    "accent": "#5E5A10",
+    "name": {
+      "es": "Peras",
+      "en": "Pears"
+    },
+    "season": {
+      "es": "febrero",
+      "en": "February"
+    },
+    "description": {
+      "es": "Textura firme y sabor suave, seleccionadas por tamaño y sanidad antes del embalaje.",
+      "en": "Firm texture and mild flavor, graded by size and condition before packing."
+    }
+  },
+  {
+    "id": "grapes",
+    "image": "grapes.jpg",
+    "focus": "65% center",
+    "accent": "#5A2A5E",
+    "name": {
+      "es": "Uva Red Globe",
+      "en": "Red Globe grapes"
+    },
+    "season": {
+      "es": "marzo a abril",
+      "en": "March to April"
+    },
+    "description": {
+      "es": "Uva de mesa de bayas grandes y firmes, cosechada en su punto para el mercado internacional.",
+      "en": "Table grape with large, firm berries, harvested at peak for international markets."
+    }
+  }
+]

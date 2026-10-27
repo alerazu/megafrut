@@ -1,0 +1,149 @@
+<!doctype html>
+<!--
+  PLANTILLA DE LA PÁGINA. No edites index.html a mano: se genera con `node build.mjs`.
+  - Los textos van en content/lang/*.json (un archivo por idioma).
+  - Las frutas van en content/fruits.json.
+  - Contacto, idiomas y certificación van en content/site.json.
+  Aquí solo cambia la estructura de la página.
+-->
+<html lang="{{defaultLang}}" data-default-lang="{{defaultLang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{t.meta.title}}</title>
+<meta name="description" content="{{t.meta.description}}" id="meta-desc">
+<meta name="theme-color" content="#14301F">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-title" content="{{site.name}}">
+<link rel="canonical" href="{{site.url}}">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.name}}">
+<meta property="og:title" content="{{t.meta.title}}">
+<meta property="og:description" content="{{t.meta.description}}">
+<meta property="og:url" content="{{site.url}}">
+<meta property="og:image" content="{{site.url}}assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">{{@jsonld}}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="#" aria-label="{{site.name}}">
+      <img src="assets/img/logo-megafrut-sm.png" data-i18n-alt="brand.logoAlt" width="200" height="190">
+      <span>{{site.name}}</span>
+    </a>
+    <nav aria-label="Principal">
+      {{@nav}}
+      <a class="btn btn-gold" href="https://wa.me/{{contact.whatsapp}}" rel="noopener">WhatsApp</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      {{@langButtons}}
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <span class="eyebrow" data-i18n="hero.eyebrow"></span>
+      <h1 data-i18n="hero.title"></h1>
+      <p class="hero-sub" data-i18n="hero.subtitle"></p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#frutas" data-i18n="hero.cta1"></a>
+        <a class="btn btn-outline-light" href="#contacto" data-i18n="hero.cta2"></a>
+      </div>
+    </div>
+    <div class="hero-logo"><div><img src="assets/img/logo-megafrut.png" data-i18n-alt="hero.logoAlt" width="640" height="607"></div></div>
+  </div>
+</section>
+
+<section id="frutas" class="fruits">
+  <div class="wrap">
+    <div class="intro">
+      <h2 class="title" data-i18n="fruits.title"></h2>
+      <p data-i18n="fruits.subtitle"></p>
+    </div>
+    <div class="cards" style="--c-lg:{{cols.lg}};--c-md:{{cols.md}};--c-sm:{{cols.sm}}">
+      {{@cards}}
+    </div>
+  </div>
+</section>
+
+{{@cert}}
+
+<section id="nosotros" class="why">
+  <div class="wrap">
+    <h2 class="title" data-i18n="why.title"></h2>
+    <div class="why-grid">
+      {{@why}}
+    </div>
+  </div>
+</section>
+
+<section id="ubicacion" class="loc">
+  <div class="wrap">
+    <div class="loc-text">
+      <h2 class="title" data-i18n="location.title"></h2>
+      <p data-i18n="location.text"></p>
+      <div>
+        <span class="loc-label" data-i18n="location.label"></span>
+        <span class="loc-name" data-i18n="location.name"></span>
+        <span class="loc-addr" data-i18n="location.address"></span>
+      </div>
+      <a class="btn btn-dark" href="{{contact.mapsUrl}}" rel="noopener" data-i18n="location.button"></a>
+    </div>
+    <img src="assets/img/entrada.jpg" data-i18n-alt="location.imageAlt" width="1200" height="900" loading="lazy" decoding="async">
+  </div>
+</section>
+
+<section id="trabaja" class="jobs">
+  <div class="wrap">
+    <div class="jobs-box">
+      <div class="t">
+        <h2 class="title" data-i18n="jobs.title"></h2>
+        <p data-i18n="jobs.text"></p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-dark" data-i18n-href="jobs.cvHref" data-i18n="jobs.cvButton"></a>
+        <a class="btn btn-outline-dark" data-i18n-href="jobs.waHref" rel="noopener" data-i18n="jobs.waButton"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <div class="wrap">
+    <div class="l">
+      <h2 class="title" data-i18n="contact.title"></h2>
+      <p data-i18n="contact.text"></p>
+    </div>
+    <div class="r">
+      <div><span class="k" data-i18n="contact.emailLabel"></span><a href="mailto:{{contact.email}}">{{contact.email}}</a></div>
+      <div><span class="k" data-i18n="contact.phoneLabel"></span><a href="tel:{{contact.phone}}">{{contact.phoneDisplay}}</a></div>
+      <div><span class="k" data-i18n="contact.locationLabel"></span><span data-i18n="contact.locationValue"></span></div>
+      <a class="btn btn-gold" href="https://wa.me/{{contact.whatsapp}}" rel="noopener" data-i18n="contact.whatsappButton"></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="bar">
+    <span>© {{year}} {{site.name}} · {{domain}}</span>
+    <span data-i18n="footer.tagline"></span>
+  </div>
+</footer>
+
+<script type="application/json" id="copy">{{@copy}}</script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

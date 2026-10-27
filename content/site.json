@@ -1,0 +1,56 @@
+{
+  "name": "Megafrut",
+  "url": "https://megafrut.cl/",
+  "defaultLanguage": "es",
+  "languages": [
+    {
+      "code": "es",
+      "label": "ES",
+      "name": "Español"
+    },
+    {
+      "code": "en",
+      "label": "EN",
+      "name": "English"
+    }
+  ],
+  "contact": {
+    "email": "Contacto.Megafrut@gmail.com",
+    "phone": "+56984445286",
+    "phoneDisplay": "+56 9 8444 5286",
+    "whatsapp": "56984445286",
+    "mapsUrl": "https://maps.app.goo.gl/tzRuajKfJukPzzwq8"
+  },
+  "address": {
+    "locality": "San Fernando",
+    "region": "Región de O’Higgins",
+    "country": "CL"
+  },
+  "nav": [
+    {
+      "id": "frutas",
+      "label": "nav.fruits"
+    },
+    {
+      "id": "nosotros",
+      "label": "nav.why"
+    },
+    {
+      "id": "ubicacion",
+      "label": "nav.location"
+    },
+    {
+      "id": "trabaja",
+      "label": "nav.jobs"
+    },
+    {
+      "id": "contacto",
+      "label": "nav.contact"
+    }
+  ],
+  "certification": {
+    "enabled": true,
+    "ggn": "",
+    "logo": ""
+  }
+}
