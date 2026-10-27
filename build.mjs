@@ -80,7 +80,7 @@ for (const code of langs) {
 
 // ---------- fragmentos ----------
 const n = fruits.length;
-const cols = { lg: n <= 5 ? Math.max(n, 1) : n === 6 ? 3 : 4, md: Math.min(n, 3) || 1, sm: Math.min(n, 2) || 1 };
+const cols = { lg: n <= 4 ? Math.max(n, 1) : n <= 6 ? 3 : 4, md: Math.min(n, 3) || 1, sm: Math.min(n, 2) || 1 };
 
 const whyCount = Object.keys(dict[def] ?? {}).filter((k) => /^why\.items\.\d+\.title$/.test(k)).length;
 
