@@ -77,16 +77,16 @@
     "focus": "65% center",
     "accent": "#5A2A5E",
     "name": {
-      "es": "Uva Red Globe",
-      "en": "Red Globe grapes"
+      "es": "Uvas Red Globe y Crimson Seedless",
+      "en": "Red Globe and Crimson Seedless grapes"
     },
     "season": {
       "es": "marzo a abril",
       "en": "March to April"
     },
     "description": {
-      "es": "Uva de mesa de bayas grandes y firmes, cosechada en su punto para el mercado internacional.",
-      "en": "Table grape with large, firm berries, harvested at peak for international markets."
+      "es": "Uvas de mesa de bayas grandes y firmes, cosechadas en su punto para el mercado internacional.",
+      "en": "Table grapes with large, firm berries, harvested at peak for international markets."
     }
   }
 ]
